@@ -1,0 +1,1 @@
+Retrieval-Augmented Generation (RAG) pipeline that allows you to "chat" with your own text file. It essentially creates a searchable database (using FAISS) of your document's content, so when you ask a question, the system finds the exact relevant paragraphs and sends them to ChatGPT to generate a precise, fact-based answer solely from your data.
